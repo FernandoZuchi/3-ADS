@@ -86,11 +86,7 @@ const produtos = [
       precoUnitario: 500,
       quantidade: 50,
       categoria: "Periféricos",
-      fabricante: {
-        nome: "GamerPro",
-        endereco: "Rua das Pedras, 321, São Paulo, SP",
-        telefone: "(11) 98765-4321"
-      }
+      fabricante: "GamerPro"
     },
     {
       id: 2,
@@ -98,11 +94,7 @@ const produtos = [
       precoUnitario: 350,
       quantidade: 100,
       categoria: "Periféricos",
-      fabricante: {
-        nome: "TecLab",
-        endereco: "Av. dos Jumentos, 456, Rio de Janeiro, RJ",
-        telefone: "(21) 91234-5678"
-      }
+      fabricante: "TecLab"
     },
     {
       id: 3,
@@ -110,11 +102,7 @@ const produtos = [
       precoUnitario: 2500,
       quantidade: 30,
       categoria: "Eletrônicos",
-      fabricante: {
-        nome: "UltraVision",
-        endereco: "Rua das Gramas, 789, Curitiba, PR",
-        telefone: "(41) 99876-5432"
-      }
+      fabricante: "Ultravision"
     }
   ];
   

@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+app.use(express.json());
 
 app.listen(45678, () => {
     console.log(`Aplicação rodando na porta 45678`);
@@ -14,13 +15,34 @@ app.get("/games", (req,res) => {
     res.json(DB.games);
 })
 
-app.get("/game/:id", (req,res) => {
+app.get("/game/:id",(req, res) => {
     if(isNaN(req.params.id)){
         res.sendStatus(400);
-    }else {
+    }else{
+
         var id = parseInt(req.params.id);
+
+        var game = DB.games.find(g => g.id == id);
+
+        if(game != undefined){
+            res.statusCode = 200;
+            res.json(game);
+        }else{
+            res.sendStatus(404);
+        }
     }
 });
+
+app.post("/game",(req, res) => { 
+    var {id, title, price, year} = req.body;
+    DB.games.push({
+        id,
+        title,
+        price,
+        year
+    });
+    res.sendStatus(200);
+})
 
 var DB = {
     games: [
