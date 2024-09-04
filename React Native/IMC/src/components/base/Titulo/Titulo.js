@@ -1,10 +1,9 @@
 import { StyleSheet, Text } from "react-native"
 
 
-const Titulo = ( {children, tamanho, corFundo} )=>{
+const Titulo = ( {children , tamanho, corFundo} )=>{
 
     // let {titulo, tamanho} = p
-
     // console.log(p)
 
     st = styles.t1
@@ -13,19 +12,11 @@ const Titulo = ( {children, tamanho, corFundo} )=>{
     }else if (tamanho == 'pequeno'){
         st = styles.t3
     }
-
-    if(corFundo == '#ddd')
-    {
-        c1 = styles.c1;
-    }
-    else if(corFundo == '#bbb')
-    {
-        c1 = styles.c2
-    }
-
+    const cor = {backgroundColor: corFundo}
+    // console.log(corFundo, cor)
 
     return (
-        <Text style={[st, c1]}> 
+        <Text style={[st , styles.cor, cor ]} >
             {children}
         </Text>
     )
@@ -44,19 +35,9 @@ const styles = StyleSheet.create({
         fontSize: 14,
         padding: 5,
     },
-    c1: {
-        backgroundColor: "#bbb",
-        width: "100%",
-        textAlign: 'center',
-    },
-    c2: {
-        backgroundColor: "#777",
-        width: "100%",
-        textAlign: 'center',
-    },
-    c: {
-        backgroundColor: "#fff",
-        width: "100%",
+    cor:{
+        // backgroundColor: '#bbb',
+        width: '100%',
         textAlign: 'center',
     }
 })
