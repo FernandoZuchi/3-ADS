@@ -22,6 +22,8 @@ app.get('/', (req, res) => {
   return res.json({message: 'Welcome!'});
 });
 
+require("./app/routes/tutorial.routes")(app);
+
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Server is running on localhost:${port}`);
