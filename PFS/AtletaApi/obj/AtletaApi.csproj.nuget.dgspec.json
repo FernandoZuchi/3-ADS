@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/aluno/Área de Trabalho/3-ADS/PFS/AtletaApi/AtletaApi.csproj": {}
+    "C:\\Users\\Fernando Zuchi\\Desktop\\Dev\\3-ADS\\PFS\\AtletaApi\\AtletaApi.csproj": {}
   },
   "projects": {
-    "/home/aluno/Área de Trabalho/3-ADS/PFS/AtletaApi/AtletaApi.csproj": {
+    "C:\\Users\\Fernando Zuchi\\Desktop\\Dev\\3-ADS\\PFS\\AtletaApi\\AtletaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Área de Trabalho/3-ADS/PFS/AtletaApi/AtletaApi.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando Zuchi\\Desktop\\Dev\\3-ADS\\PFS\\AtletaApi\\AtletaApi.csproj",
         "projectName": "AtletaApi",
-        "projectPath": "/home/aluno/Área de Trabalho/3-ADS/PFS/AtletaApi/AtletaApi.csproj",
-        "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Área de Trabalho/3-ADS/PFS/AtletaApi/obj/",
+        "projectPath": "C:\\Users\\Fernando Zuchi\\Desktop\\Dev\\3-ADS\\PFS\\AtletaApi\\AtletaApi.csproj",
+        "packagesPath": "C:\\Users\\Fernando Zuchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fernando Zuchi\\Desktop\\Dev\\3-ADS\\PFS\\AtletaApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/aluno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Fernando Zuchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
