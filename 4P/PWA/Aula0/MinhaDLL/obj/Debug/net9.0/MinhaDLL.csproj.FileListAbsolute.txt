@@ -1,0 +1,11 @@
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\bin\Debug\net9.0\MinhaDLL.deps.json
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\bin\Debug\net9.0\MinhaDLL.dll
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\bin\Debug\net9.0\MinhaDLL.pdb
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\MinhaDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\MinhaDLL.AssemblyInfoInputs.cache
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\MinhaDLL.AssemblyInfo.cs
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\MinhaDLL.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\MinhaDLL.dll
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\refint\MinhaDLL.dll
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\MinhaDLL.pdb
+C:\Users\Fernando Zuchi\Desktop\develop\ADS\4P\PWA\Aula0\MinhaDLL\obj\Debug\net9.0\ref\MinhaDLL.dll
